@@ -1,4 +1,11 @@
-# Programming is boring art
+@def title = "Programming is boring art"
+@def disqus = true
+@def page_id = "76abe3"
+@def rss = "Programming is boring art"
+
+\blogtitle{Programming is boring art}
+\blogdate{May 30, 2020}
+
 
 Wow, there is a lot to unpack here.  Boring?  Art?
 
