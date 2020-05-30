@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{if hasmath}} {{insert head_katex.html }}     {{end}}
+  {{if hascode}} {{insert head_highlight.html }}   {{end}}
+  {{insert style.html}}
+  {{isdef title}} <title>{{fill title}}</title>  {{end}}
+  <!-- Use better fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Amaranth:700|Roboto|Roboto+Slab|Source+Sans+Pro:300,400,700|Fira+Code&display=swap" rel="stylesheet">
+  <!-- Enable lazy image loading -->
+  <script src="/libs/lazysizes/lazysizes.min.js" async=""></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155361178-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-155361178-1');
+  </script>
+</head>
+<body>
+  <header>
+    <div class="blog-name"><a href="/index.html">{{fill website_title}}</a><br/>
+      <div class="subtitle"></span>{{fill website_descr}}</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Blog</a></li>
+        <li class="bar-separator">∞</li>
+        <li><a href="/pub/about/index.html">About</a></li>
+      </ul>
+      <img src="/assets/infra/hamburger.svg" id="menu-icon">
+    </nav>
+  </header>
+<!-- Content appended here -->

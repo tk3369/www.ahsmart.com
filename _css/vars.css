@@ -1,0 +1,21 @@
+:root {
+
+    /* content width for wide display (e.g. desktop) */
+    --wide-display-width: 800px;
+
+    /* splash image */
+    --image-width: 100%;
+    --image-padding-left: 0px;
+
+    /* top nav header font */
+    --website-header-font-family: Amaranth, sans-serif;
+
+    /* header font */
+    --header-font-family: Roboto, san-serif;
+
+    /* content font */
+    --body-font-family: 'Source Sans Pro', 'Roboto Slab', serif;
+
+    /* code font */
+    --code-font-family: 'Fira Code', monospace;
+}
