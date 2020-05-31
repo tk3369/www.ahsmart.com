@@ -139,6 +139,8 @@ end
 ```
 
 Just having these few abstractions opens up a lot of possibilities.  Why?  Let’s suppose that you have 3 different kinds of fetchers and 3 kinds of notifiers.  Now, you can easily compose 3 x 3 = 9 different kinds of health checks.
+
+## A word of caution...
  
 Please beware that _abstraction is a double-edged sword._
 
