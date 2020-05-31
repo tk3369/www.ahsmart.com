@@ -52,10 +52,10 @@ A skillful programmer looks at the problem and says, hey, why don't we build an 
 What we will do is to maintain the structure/logic of the code and abstract away the rest of the code as more general functions:
 
 ```julia
-function check(url)
+function check(url, recipient, message)
     response = fetch(url)
-    if !is_successful(response) then
-        alert(site, response)
+    if !is_successful(response)
+        alert(recipient, message)
     end
 end
 ```
@@ -105,21 +105,21 @@ is to define what the interface looks like and attach a doc string for documenta
 
 Just for fun, we will implement both an `EmailNotifier` and `SlackNotifier` here:
 
-```
+```julia
 struct EmailNotifier <: AbstractNotifier 
     recipient::String
 end
 
-function alert(::EmailNotifier, subject, message)
-    SMTP.send(notifier.recipient, subject, messgae)
+function alert(notifier::EmailNotifier, message)
+    SMTP.send(notifier.recipient, message)
 end
 
 struct SlackNotifier <: AbstractNotifier 
     channel::String
 end
 
-function alert(notifier::SlackNotifier, subject, message)
-    Slack.send(notifier.channel, subject, message)
+function alert(notifier::SlackNotifier, message)
+    Slack.send(notifier.channel, message)
 end
 ```
 
@@ -131,9 +131,9 @@ object.
 
 ```julia
 function check(url, fetcher::AbstractFetcher, notifier::AbstractNotifier)
-    response = fetch(fetcher, site)
-    if !is_successful(fetcher, response) then
-        alert(notifier, "$site is down", "Error: $response")
+    response = fetch(fetcher, url)
+    if !is_successful(fetcher, response)
+        alert(notifier, "$url is down")
     end
 end
 ```
@@ -142,12 +142,18 @@ Just having these few abstractions opens up a lot of possibilities.  Why?  Letâ€
  
 Please beware that _abstraction is a double-edged sword._
 
-Too much abstraction can hurt.  In the above example, there is only a single level of abstraction.  When one looks at the code, it is still pretty easy to understand and comprehend.  However, if there are multiple layers of abstraction, then it becomes very difficult to reason about the code.  Look no further than [Fizz Buzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) for an extreme illustration of over-engineering.
+**Too much abstraction can hurt.**  In the above example, there is only a single level of abstraction.  When one looks at the code, it is still pretty easy to understand and comprehend.  However, if there are multiple layers of abstraction, then it becomes very difficult to reason about the code.  Look no further than [Fizz Buzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) for an extreme illustration of over-engineering.
+
+Note that the example above is used illustrate the power of abstraction. **_The programmer must make good judgments about whether a function needs to be generalized or not._**  Generally, good judgement comes with experience and practice.
 
 ## Final wordsâ€¦
 
-As you can see, it is quite simple to uplift your code to a new level. The use of abstract type is a quick and easy way to build these absractions.  Note that there are other paradigms - for example, traits.  I will save that for a future post.  If you cannot wait, head over to the [BinaryTraits.jl ](https://github.com/tk3369/BinaryTraits.jl) project repo for a quick peek of what's brewing at the moment.
+As you can see, it is quite simple to uplift your code to a new level. The use of abstract type is a quick and easy way to build these abstractions.  Note that there are other paradigms - for example, traits.  I will save that for a future post.  If you cannot wait, head over to the [BinaryTraits.jl ](https://github.com/tk3369/BinaryTraits.jl) project repo for a quick peek of what's brewing at the moment.
 
 Programming can be fun.  It does not have to be boring.  At this point, I guess I will retract my initial claim.  While my code may look boring from afar, when I look closer, I see a beautiful thing.
 
 Enjoy your programming life.  It's a *fun* art!
+
+## Updates
+
+- *May 30, 2020 5:30 PM PST:*  Corrected several typos and added some note about proper judgement for real work.
