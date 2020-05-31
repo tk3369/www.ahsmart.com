@@ -146,7 +146,7 @@ Please beware that _abstraction is a double-edged sword._
 
 **Too much abstraction can hurt.**  In the above example, there is only a single level of abstraction.  When one looks at the code, it is still pretty easy to understand and comprehend.  However, if there are multiple layers of abstraction, then it becomes very difficult to reason about the code.  Look no further than [Fizz Buzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) for an extreme illustration of over-engineering.
 
-Note that the example above is used illustrate the power of abstraction. **_The programmer must make good judgments about whether a function needs to be generalized or not._**  Generally, good judgement comes with experience and practice.
+Note that the example above is used to illustrate the power of abstraction. **_The programmer must make good judgments about whether a function needs to be generalized or not._**  Generally, good judgement comes with experience and practice.
 
 ## Final words…
 
