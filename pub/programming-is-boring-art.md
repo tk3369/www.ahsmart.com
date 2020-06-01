@@ -43,7 +43,7 @@ It is inflexible because it does one thing, and it’s only doing that one thing
 Just think about that for a little bit.  It is not hard to see the following potential problems:
 * The HTTP request only uses the `GET` method without any query parameter.  What if I want to use the `POST` method?  What if I need to pass some kind of id as part of the query parameters in the URL?
 * The code checks the HTTP status against `200` to see if it was successful. What if I want to handle the other [2xx response codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#2xx_Success) as well?
-* The logic for alerting somenoe is hard-coded to send an email.  What if I want to send the alert to a chat platform such as Slack or Zulip?
+* The logic for alerting someone is hard-coded to send an email.  What if I want to send the alert to a chat platform such as Slack or Zulip?
 
 ## Generalizing the solution
 
