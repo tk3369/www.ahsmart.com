@@ -4,6 +4,8 @@
 @def disqus = true
 @def page_id = "354040"
 @def rss = "A quick overview about interesting things happened at AWS re:Invent 2018 conference."
+@def rss_pubdate = Date(2019, 1, 22)
+
 
 \blogtitle{Honorable Experience @ AWS re:Invent 2018}
 \blogdate{Jan 22, 2019}

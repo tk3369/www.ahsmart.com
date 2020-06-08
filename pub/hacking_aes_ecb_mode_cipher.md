@@ -3,6 +3,8 @@
 @def title = "Hacking AES (ECB mode) Cipher using Julia"
 @def disqus = true
 @def page_id = "94972d"
+@def rss = "Hacking AES (ECB mode) Cipher using Julia"
+@def rss_pubdate = Date(2018, 10, 21)
 
 \blogtitle{Hacking AES (ECB mode) Cipher using Julia}
 \blogdate{Oct 21, 2018}

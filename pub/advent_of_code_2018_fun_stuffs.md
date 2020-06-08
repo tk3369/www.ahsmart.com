@@ -3,6 +3,8 @@
 @def title = "Advent-of-Code 2018 Fun Stuffs using Julia"
 @def disqus = true
 @def page_id = "037f60"
+@def rss = "Advent-of-Code 2018 Fun Stuffs using Julia"
+@def rss_pubdate = Date(2019, 1, 22)
 
 \blogtitle{Advent-of-Code 2018 Fun Stuffs using Julia}
 \blogdate{Jan 22, 2019}

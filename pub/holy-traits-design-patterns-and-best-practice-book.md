@@ -4,6 +4,7 @@
 @def disqus = true
 @def page_id = "b79e28"
 @def rss = "Holy Traits Pattern contains an excerpt from the book Hands-on Design Patterns and Best Practices with Julia, published by Packt Publishing in January 2020."
+@def rss_pubdate = Date(2020, 1, 22)
 
 \blogtitle{Holy Traits Pattern (book excerpt)}
 \blogdate{Jan 22, 2020}

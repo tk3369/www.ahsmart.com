@@ -2,6 +2,7 @@
 @def disqus = true
 @def page_id = "9de6100d"
 @def rss = "Discuss how to name things properly in programming."
+@def rss_pubdate = Date(2020, 6, 8)
 
 \blogtitle{Naming things properly}
 \blogdate{Jun 8, 2020}
