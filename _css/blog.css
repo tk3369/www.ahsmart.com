@@ -40,6 +40,22 @@
     padding-left: var(--image-padding-left);
 }
 
+.franklin-content table {
+    min-width: 70%;
+}
+
+.franklin-content th {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    /* text-align: center; */
+}
+
+.franklin-content td {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    /* text-align: left; */
+}
+
 /* on wide screens, fix content width to a max value */
 @media (min-width: 940px) {
     .franklin-content {

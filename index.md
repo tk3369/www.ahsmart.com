@@ -5,6 +5,8 @@
 
 \blogyear{2020}
 
+\blogmonth{Jun} [Naming things properly](pub/naming-things-properly/)
+
 \blogmonth{May} [Programming is boring art](pub/programming-is-boring-art/)
 
 \blogmonth{Jan} [Holy Traits Pattern (book excerpt)](pub/holy-traits-design-patterns-and-best-practice-book/)
