@@ -202,7 +202,7 @@ julia> length([1,2,3])
 There is already a simple solution once I understand how multiple dispatch works in Julia.
 So, how did I trigger 200+ follow-up posts in Discourse?
 
-The main controversy is why I have to be explict about extending `Base.length`.  Since
+The main controversy is why I have to be explicit about extending `Base.length`.  Since
 `Base.length` has a name of `length`, and `CalendarApp.length` has a name of `length`,
 why wouldn't Julia just automatically merge them?
 
@@ -257,7 +257,7 @@ end
 
 Well, it's probably fine because `Meeting` is my own data type. 
 
-However, it also means that I should not let anyone else use `Meeting`.  Why? That's becasue
+However, it also means that I should not let anyone else use `Meeting`.  Why? That's because
 another developer will probably get very confused to experience my `length` function returning a 
 string rather than a number, and that could cause serious problems.
 
@@ -323,7 +323,7 @@ it is also important to mean what you mean.
 Over the years, I have developed a habit to ensure writing code that means what I mean. 
 And, it's actually super simple. **Just write documentations.** 
 
-In Julia, I write a docstring for every function at the same time that I code that function.
+In Julia, I write a doc string for every function at the same time that I code that function.
 Sometimes I change the function name to match my doc string.
 At other times, I change the doc string to match my function name.
 
