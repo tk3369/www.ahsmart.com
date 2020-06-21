@@ -1,11 +1,14 @@
 @def title = "The meaning of functions in Julia"
 @def disqus = true
 @def page_id = "0c5a7087"
-@def rss = "The meaning of functions in Julia"
+@def rss = "Why are packages in Julia's ecosystem works so well together? It's all because of consistent meaning of functions across the whole ecosystem."
 @def rss_pubdate = Date(2020, 6, 17)
 
 \blogtitle{The meaning of functions in Julia}
 \blogdate{Jun 17, 2020}
+
+![hacking](/assets/pages/meaning-of-functions/dictionary.jpg)
+\textcss{blog-image-credit}{Photo by Romain Vignes on Unsplash}
 
 When I first learned about the Julia programming language, there were a few things that 
 gave me the "wat" moments. One of those surprises involves functions naming. 
