@@ -8,6 +8,8 @@
 \blogtitle{Programming is boring art}
 \blogdate{May 30, 2020}
 
+![naming things](/assets/pages/programming-is-boring-art/sebastian-muller-VLdaxYyXJvw-unsplash.jpg)
+\textcss{blog-image-credit}{Photo by Sebastian Muller on Unsplash}
 
 Wow, there is a lot to unpack here.  Boring?  Art?
 
@@ -30,7 +32,7 @@ Let’s say I want to write a program that makes a request to a web site and ale
 ```julia
 function check(url)
     response = HTTP.get(url)
-    if response.status != 200 then
+    if response.status != 200
         email("someone@somewhere.com", "something is wrong")
     end
 end
