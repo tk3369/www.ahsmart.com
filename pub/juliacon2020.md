@@ -72,7 +72,7 @@ The app runs in the browser without any software installation.  Once you sign in
 
 ![gather](/assets/pages/juliacon2020/juliacon_gather_boat_chat.png)
 
-To spice up the fun, Ian Butterworth, the same person that introduces Gather Town to the Julia commuity, partnered up with Cormullion, author of [JuliaMono font](https://juliamono.netlify.app/) and [Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl), to create a wormhole in the map. When you fall in the wormhole, you experience a different kind of world. After exploring 5 levels of the worlds, you can return to the regular JuliaCon lobby.
+To spice up the fun, Ian Butterworth, the same person that introduced Gather Town to the Julia commuity, partnered up with Cormullion, author of [JuliaMono font](https://juliamono.netlify.app/) and [Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl), to create a wormhole in the map. When you fall in the wormhole, you can experience a whole different kind of world. After exploring 5 levels of the worlds, you can return to the regular JuliaCon lobby.
 
 ![gather](/assets/pages/juliacon2020/juliacon_wormhole_pi.png)
 
