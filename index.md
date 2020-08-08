@@ -5,6 +5,8 @@
 
 \blogyear{2020}
 
+\blogmonth{Aug} [JuliaCon 2020 was awesome!](pub/juliacon2020/)
+
 \blogmonth{Jun} [The meaning of functions in Julia](pub/the-meaning-of-functions/)
 
 \blogmonth{Jun} [Naming things properly](pub/naming-things-properly/)
