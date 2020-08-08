@@ -11,7 +11,7 @@
 
 The year of 2020 is interesting as the pandemic forces everyone to really think about how they communicate and work with each other. Technology conferences are hit particularly hard. As most people cannot travel anymore, and with the constraint of social distancing, it has become impractical to organize physical conferences anymore.
 
-I just finished JuliaCon 2020 and I had a great experience.  So I would like to share my thoughts here.
+I just finished [JuliaCon 2020](https://live.juliacon.org/) and I had a great experience.  So I would like to share my thoughts here.
 
 # The scale of being free and online!
 
@@ -23,13 +23,15 @@ To get a taste of the scale, JuliaCon 2019 had about 400 attendees. In 2020, ove
 
 It is known that the Julia Language has been doubling its users every year.  So there is already a popularity effect.  However, the combination of a free conference that anybody can participate online from anywhere in the world makes a huge difference.
 
+Reference: **_Julia has been downloaded more than 17 million times and is used at more than 1,500 universities_** from Julia Computing's [July 2020 newsletter](https://juliacomputing.com/blog/2020/07/17/julia-con.html). By constrast, the [July 2019 newsletter](https://juliacomputing.com/blog/2019/07/02/july-newsletter.html) claimed 9 million downloads.
+
 #  Extreme engagement during talks
 
 When you go to a physical conference, you usually attend a session by sitting there and watching the speaker talk for half an hour.  You probably keep quiet and possibly taking some notes during the talk. When the talk is finished, you may have a few minutes to chat with some people around you and share with each other about any thoughts of the the session.
 
 **At a virtual conference, the communication style is completely changed.**
 
-In particular, the JuliaCon organizers set up a Discord server as a primary chat platform. The talks were all pre-recorded (except keynotes) so that the videos can start and finish on time.
+In particular, the JuliaCon organizers set up a [Discord](https://discord.com/) server as a primary chat platform. The talks were all pre-recorded (except keynotes) so that the videos can start and finish on time.
 
 **Now, two interesting things happen as everyone watched the talk at the same time:**
 
@@ -38,9 +40,11 @@ In particular, the JuliaCon organizers set up a Discord server as a primary chat
 
 **That's an important change in dynamics.** Never before, the speaker of the talk is able to engage with such a wide spectrum of audience and have a meaningful conversation online, in real-time.
 
+![discord](/assets/pages/juliacon2020/juliacon_discord3.png)
+
 # Posters are really lightning talks
 
-If I were able to attend the conference at Lisbon, I would have prepared two large posters for my [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl) and [ContextTracking.jl](https://github.com/tk3369/ContextTracking.jl) packages. Since the conference became online, I have to create PDF files that is optimized for online viewing.  In other words, they look more like slides than posters.
+If I were to attend the conference at Lisbon, I would have prepared two large posters for my [BinaryTraits.jl](https://github.com/tk3369/BinaryTraits.jl) and [ContextTracking.jl](https://github.com/tk3369/ContextTracking.jl) packages. Since the conference became online, I have to create PDF files that is optimized for online viewing.  In other words, they look more like slides than posters.
 
 ![posters](/assets/pages/juliacon2020/juliacon_my_posters.png)
 
