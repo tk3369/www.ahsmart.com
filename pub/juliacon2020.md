@@ -94,7 +94,7 @@ Another thoughtful idea with this year’s JuliaCon was the [daily podcasts](htt
 
 ![podcast](/assets/pages/juliacon2020/juliacon_podcast.png)
 
-The best part is that the content of the podcast was largely influenced by suggestions/comments from the attendees.  Every day, the hosts would ask everyone to submit who they want to see in the upcoming episodes.
+The best part is that the content of the podcast was largely influenced by suggestions/comments from the attendees.  Every day, the hosts would ask everyone to submit who they want to see in the upcoming episodes 👇👇👇
 
 ![podcast note](/assets/pages/juliacon2020/juliacon_podcast_note.png)
 
