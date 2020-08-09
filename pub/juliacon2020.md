@@ -1,15 +1,15 @@
-@def title = "JuliaCon 2020 was awesome!"
+@def title = "JuliaCon 2020 was awesome! The virtual experience is even better than a physical one."
 @def disqus = true
 @def page_id = "c3f2d055"
-@def rss = "The year of 2020 is interesting as the pandemic forces everyone to really think how they communicate and work with each other. I just finished JuliaCon 2020 and I had a great experience.  So I would like to share my thoughts here."
+@def rss = "The year of 2020 is interesting as the pandemic forces everyone to really think how they communicate and work with each other. I just finished JuliaCon 2020 and I had a great experience. So I would like to share my thoughts here."
 @def rss_pubdate = Date(2020, 8, 8)
 
-\blogtitle{JuliaCon 2020 was awesome!}
-\blogdate{Aug 8, 2020}
+\blogtitle{JuliaCon 2020 was awesome!<br/><small>The virtual experience is even better than a physical one.</small>}
+\blogdate{Aug 8, 2020 &nbsp;&nbsp;&nbsp; 5 mins read}
 
 ![juliacon](/assets/pages/juliacon2020/juliacon_background_art.png)
 
-The year of 2020 is interesting as the pandemic forces everyone to really think about how they communicate and work with each other. Technology conferences are hit particularly hard. As most people cannot travel anymore, and with the constraint of social distancing, it has become impractical to organize physical conferences anymore.
+The year of 2020 is interesting as the COVID-19 pandemic forces everyone to really think about how they communicate and work with each other. Technology conferences are hit particularly hard. As most people cannot travel anymore, and with the constraint of social distancing, it has become impractical to organize physical conferences anymore.
 
 I just finished [JuliaCon 2020](https://live.juliacon.org/) and I had a great experience.  So I would like to share my thoughts here.
 
@@ -23,7 +23,7 @@ To get a taste of the scale, JuliaCon 2019 had about 400 attendees. In 2020, ove
 
 It is known that the Julia Language has been doubling its users every year.  So there is already a popularity effect.  However, the combination of a free conference that anybody can participate online from anywhere in the world makes a huge difference.
 
-Reference: **_Julia has been downloaded more than 17 million times and is used at more than 1,500 universities_** from Julia Computing's [July 2020 newsletter](https://juliacomputing.com/blog/2020/07/17/julia-con.html). By constrast, the [July 2019 newsletter](https://juliacomputing.com/blog/2019/07/02/july-newsletter.html) claimed 9 million downloads.
+Reference: **_Julia has been downloaded more than 17 million times and is used at more than 1,500 universities_** from Julia Computing's [July 2020 newsletter](https://juliacomputing.com/blog/2020/07/17/julia-con.html). By contrast, the [July 2019 newsletter](https://juliacomputing.com/blog/2019/07/02/july-newsletter.html) claimed 9 million downloads.
 
 #  Extreme engagement during talks
 
@@ -38,9 +38,11 @@ In particular, the JuliaCon organizers set up a [Discord](https://discord.com/) 
 1. The attendees were very chatty. People started asking questions and leaving comments on Discord about the topic or when they encountered any kind of “ah-ha” moments.
 2. The speaker actually engages with the attendees and answering questions on Discord.  
 
-**That's an important change in dynamics.** Never before, the speaker of the talk is able to engage with such a wide spectrum of audience and have a meaningful conversation online, in real-time.
+Here's a part of the conversations that happened during the talk [The ups and downs of convincing to switch to Julia in a company](https://www.youtube.com/watch?v=u_8kW8nlElY):
 
 ![discord](/assets/pages/juliacon2020/juliacon_discord3.png)
+
+**That's an important change in dynamics.** Never before, the speaker of the talk is able to engage with such a wide spectrum of audience and have a meaningful conversation online, in real-time.
 
 # Posters are really lightning talks
 
@@ -50,13 +52,13 @@ If I were to attend the conference at Lisbon, I would have prepared two large po
 
 **How do we engage with people that are just “stopping by”?**
 
-JuliaCon orgnaized two separate 90-minute poster sessions.  Each session covers approximately 15-20 posters.  The arrangement is that a single audio channel is open for the session.
+JuliaCon organized two separate 90-minute poster sessions.  Each session covers approximately 15-20 posters.  The arrangement is that a single audio channel is open for the session.
 
 **It was a little awkward if the poster presenters just sit there and wait for people to ask questions.**
 
 We decided to have each presenter spend few minutes to explain his/her poster.  A moderator helped arrange and lined up the presenters.  After the presentation, attendees can go to the specific poster chat channel on Discord for further conversations.
 
-For a physical conference, people sometimes get bored sitting in the talks and so they walk around and find the poster sessions and chat with people around. At an online conference, this behavior doesn't exist - when I get bored, I just walk around my house rather than visiting a poster session. For that reason, I feel that the poster sessions at JuliaCon were a little under-represented. 
+For a physical conference, people sometimes get bored sitting in the talks and so they walk around and find the poster sessions and chat with people around. At an online conference, this behavior doesn't exist - when I get bored, I just walk around my house rather than visiting a poster session. For that reason, I feel that the poster sessions were a little under-represented. 
 
 # Having fun with social networking
 
@@ -72,23 +74,29 @@ The app runs in the browser without any software installation.  Once you sign in
 
 ![gather](/assets/pages/juliacon2020/juliacon_gather_boat_chat.png)
 
-To spice up the fun, Ian Butterworth, the same person that introduced Gather Town to the Julia commuity, partnered up with Cormullion, author of [JuliaMono font](https://juliamono.netlify.app/) and [Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl), to create a wormhole in the map. When you fall in the wormhole, you can experience a whole different kind of world. After exploring 5 levels of the worlds, you can return to the regular JuliaCon lobby.
+To spice up the fun, Ian Butterworth, the same person that introduced Gather Town to the Julia community, partnered up with Cormullion, author of [JuliaMono font](https://juliamono.netlify.app/) and [Luxor.jl](https://github.com/JuliaGraphics/Luxor.jl), to create a wormhole in the map. When you fall in the wormhole, you can experience a whole different kind of world. After exploring 5 levels of the worlds, you can return to the regular JuliaCon lobby.
 
 ![gather](/assets/pages/juliacon2020/juliacon_wormhole_pi.png)
 
 ![gather](/assets/pages/juliacon2020/juliacon_wormhole_illuminati.png)
 
-In addition, a Minecraft server was created. The JuliaCon was originally planned to be in Lisbon, Portugal, until we all got hit by the pandemic.  The minecraft server has a mini Lisbon town center created for attendees to get a taste of of Lisbon. I did not sign in to Minecraft and so I am unsure how many people went in there.
-
 I could see probably around 75 people at Gather Town during peak time. Perhaps not everyone is comfortable doing video chats yet. I imagine that may change in the future as online video chat becomes a normal activity. 
+
+In addition, a Minecraft server was created. The JuliaCon was originally planned to be in Lisbon, Portugal, until we all got hit by the pandemic.  The Minecraft server has a mini Lisbon town center created for attendees to get a taste of of Lisbon. I did not sign in to the Minecraft server but let me share the following image contributed by Ahan Sengupta.
+
+![minecraft](/assets/pages/juliacon2020/juliacon_minecraft.png)
+
+Having these kinds of virtual worlds makes the conference experience more fun and enjoyable.
 
 # Podcasts are dynamic
 
-Another thoughtful idea with this year’s JuliaCon was the daily podcasts during the conference.  Some of the most influential people from the Julia community were invited to the podcasts for intereviews. 
+Another thoughtful idea with this year’s JuliaCon was the [daily podcasts](https://www.youtube.com/watch?v=sECiJ59hPXg&list=PLP8iPy9hna6TXDX1I1hH_SM49zSxdnSYJ&index=7) during the conference.  Some of the most influential people from the Julia community were invited to the podcasts for interviews. 
 
 ![podcast](/assets/pages/juliacon2020/juliacon_podcast.png)
 
 The best part is that the content of the podcast was largely influenced by suggestions/comments from the attendees.  Every day, the hosts would ask everyone to submit who they want to see in the upcoming episodes.
+
+![podcast note](/assets/pages/juliacon2020/juliacon_podcast_note.png)
 
 The last episode of the podcast also includes a collage of short clips from the attendees. That really made the conference experience first-class. I certainly feel very engaged when attending the conference.
 
@@ -96,8 +104,13 @@ The last episode of the podcast also includes a collage of short clips from the 
 
 Because the talks are pre-recorded, the speakers had a lot of flexibility in preparing the video. For example, if the recording turned out to be too long, then the speaker could just increase the frame rate by 10-25% to make it fit the conference session time limit.
 
-Apparently, Keno Fischer's beard was totally prepared just for the conference and he shaved it off immdiately after the conference.
+Apparently, Keno Fischer's beard was totally prepared just for the conference and he shaved it off immediately after the conference.
 
 ![keno's beard](/assets/pages/juliacon2020/juliacon_keno_beard.png)
 
-In summary, I had a great experience at JuliaCon this year. I hope it will be just as fun in the years forward.
+In summary, I had a great experience at JuliaCon this year. The virtual experience was even better than a physical one in some ways. I do miss the chance of having a more physical interaction with the community, like having a boat ride or having casual conversations over lunches/dinner.
+
+Hats off to the JuliaCon organizers! They have done an amazing job during this difficult time.
+
+I hope it will be just as fun in the years forward.
+
