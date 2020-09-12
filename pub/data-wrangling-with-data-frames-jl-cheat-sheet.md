@@ -11,7 +11,7 @@
 
 ### Download your own copy of PDF
 
-- [Cheat Sheet for DataFrames.jl v0.21.x](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21.pdf)
+- [Cheat Sheet for DataFrames.jl v0.21 (revision 2)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21_rev2.pdf)
 
 ### Where to get the data
 
@@ -28,6 +28,12 @@ function download_titantic()
 end
 ```
 
+### Questions/Suggestions
+
 If you have any questions/suggestions about this cheat sheet, please submit an issue to
 to [this GitHub repo](https://github.com/tk3369/www.ahsmart.com/issues).
+
+### Older versions
+
+- [Cheat Sheet for DataFrames.jl v0.21 (rev1)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21.pdf)
 
