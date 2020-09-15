@@ -1,17 +1,17 @@
 @def title = "Data Wrangling with DataFrames.jl Cheat Sheet"
 @def disqus = true
 @def page_id = "3cfc1404"
-@def rss = "This page contains the Data Wrangling with DataFrames Cheat Sheet."
-@def rss_pubdate = Date(2020, 9, 9)
+@def rss = "Official site for the Data Wrangling with DataFrames.jl Cheat Sheet."
+@def rss_pubdate = Date(2020, 9, 15)
 
 \blogtitle{Data Wrangling with DataFrames.jl Cheat Sheet}
-\blogdate{Sep 9, 2020}
+\blogdate{Sep 15, 2020}
 
-![](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/banner.png)
+![banner image](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/banner.png)
 
 ### Download your own copy of PDF
 
-- [Cheat Sheet for DataFrames.jl v0.21.x](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21.pdf)
+- [Cheat Sheet for DataFrames.jl v0.21 (2020-09-15)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21_rev2.pdf)
 
 ### Where to get the data
 
@@ -28,6 +28,12 @@ function download_titantic()
 end
 ```
 
+### Questions/Suggestions
+
 If you have any questions/suggestions about this cheat sheet, please submit an issue to
 to [this GitHub repo](https://github.com/tk3369/www.ahsmart.com/issues).
+
+### Older versions
+
+- [Cheat Sheet for DataFrames.jl v0.21 (2020-09-10)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21.pdf)
 
