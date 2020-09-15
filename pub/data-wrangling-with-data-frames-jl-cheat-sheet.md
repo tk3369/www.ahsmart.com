@@ -2,16 +2,16 @@
 @def disqus = true
 @def page_id = "3cfc1404"
 @def rss = "Official site for the Data Wrangling with DataFrames.jl Cheat Sheet."
-@def rss_pubdate = Date(2020, 9, 13)
+@def rss_pubdate = Date(2020, 9, 15)
 
 \blogtitle{Data Wrangling with DataFrames.jl Cheat Sheet}
-\blogdate{Sep 13, 2020}
+\blogdate{Sep 15, 2020}
 
 ![banner image](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/banner.png)
 
 ### Download your own copy of PDF
 
-- [Cheat Sheet for DataFrames.jl v0.21 (2020-09-13)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21_rev2.pdf)
+- [Cheat Sheet for DataFrames.jl v0.21 (2020-09-15)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21_rev2.pdf)
 
 ### Where to get the data
 
