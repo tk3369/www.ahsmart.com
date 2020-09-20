@@ -2,10 +2,10 @@
 @def disqus = true
 @def page_id = "3cfc1404"
 @def rss = "Official site for the Data Wrangling with DataFrames.jl Cheat Sheet."
-@def rss_pubdate = Date(2020, 9, 15)
+@def rss_pubdate = Date(2020, 9, 19)
 
 \blogtitle{Data Wrangling with DataFrames.jl Cheat Sheet}
-\blogdate{Sep 15, 2020}
+\blogdate{Sep 19, 2020}
 
 ![banner image](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/banner.png)
 
