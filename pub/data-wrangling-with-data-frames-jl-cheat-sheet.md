@@ -9,9 +9,9 @@
 
 ![banner image](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/banner.png)
 
-### Download your own copy of PDF
+### Download your own PDF copy
 
-- [Cheat Sheet for DataFrames.jl v0.21 (2020-09-15)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21_rev2.pdf)
+- [Cheat Sheet for DataFrames.jl v0.21 (2020-09-19)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21_rev3.pdf)
 
 ### Where to get the data
 
@@ -35,5 +35,6 @@ to [this GitHub repo](https://github.com/tk3369/www.ahsmart.com/issues).
 
 ### Older versions
 
+- [Cheat Sheet for DataFrames.jl v0.21 (2020-09-15)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21_rev2.pdf)
 - [Cheat Sheet for DataFrames.jl v0.21 (2020-09-10)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v0.21.pdf)
 
