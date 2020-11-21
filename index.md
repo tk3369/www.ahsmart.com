@@ -5,7 +5,7 @@
 
 \blogyear{2020}
 
-\blogmonth{Sep} [Data Wrangling with DataFrames.jl Cheat Sheet](pub/data-wrangling-with-data-frames-jl-cheat-sheet/)
+\blogmonth{Nov} [Data Wrangling with DataFrames.jl Cheat Sheet](pub/data-wrangling-with-data-frames-jl-cheat-sheet/)
 
 \blogmonth{Aug} [JuliaCon 2020 was awesome!](pub/juliacon2020/)
 
