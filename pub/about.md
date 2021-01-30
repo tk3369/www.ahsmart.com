@@ -4,7 +4,7 @@
 
 ## Quick Summary
 
-- Currently working at [Western Asset Management Company](http://www.westernasset.com/)
+- Currently working at Facebook
 - Expertise in investment management domain, trading and risk systems
 - Over 25 years of professional software engineering and management experience
 - Open-source contribution to Julia ecosystem, author of [SASLib.jl](https://github.com/tk3369/SASLib.jl)
