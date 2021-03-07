@@ -13,7 +13,7 @@ Highlight.js — это инструмент для подсветки синт�
 ```html
 <link rel="stylesheet" href="/path/to/styles/default.css">
 <script src="/path/to/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>hljs.highlightAll();</script>
 ```
 
 Библиотека найдёт и раскрасит код внутри тегов `<pre><code>`, попытавшись
@@ -108,7 +108,7 @@ Highlight.js можно использовать в браузере прямо 
 
 ```html
 <script charset="UTF-8"
- src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/languages/go.min.js"></script>
+ src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/languages/go.min.js"></script>
 ```
 
 **Про Almond.** Нужно задать имя модуля в оптимизаторе, например:
