@@ -3,9 +3,11 @@
 
 \splash{infinity}{/assets/pages/infinity_unsplash.jpg}{Photo by freddie marriage on Unsplash}
 
-\blogyear{2020}
+\blogyear{2021}
 
-\blogmonth{Nov} [Data Wrangling with DataFrames.jl Cheat Sheet](pub/data-wrangling-with-data-frames-jl-cheat-sheet/)
+\blogmonth{May} [Data Wrangling with DataFrames.jl Cheat Sheet](pub/data-wrangling-with-data-frames-jl-cheat-sheet/)
+
+\blogyear{2020}
 
 \blogmonth{Aug} [JuliaCon 2020 was awesome!](pub/juliacon2020/)
 
