@@ -11,7 +11,11 @@
 
 ### Download your own PDF copy
 
-- [Cheat Sheet for DataFrames.jl v1.x (2021-05-13)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v1.x_rev1.pdf)
+- [Cheat Sheet for DataFrames.jl v1.x (English)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v1.x_rev1.pdf)
+- [Cheat Sheet for DataFrames.jl v1.x (Chinese)](/assets/pages/data-wrangling-with-data-frames-jl-cheat-sheet/DataFramesCheatSheet_v1.x_rev1_zh.pdf)
+
+Credit: 
+- Chinese translation by [zy](https://github.com/zsz00)
 
 ### Where to get the data
 
