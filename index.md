@@ -5,7 +5,7 @@
 
 \blogyear{2022}
 
-\blogmonth{Apr} [Hiring talents](pub/hiring-talents/)
+\blogmonth{Apr} [Hiring talents is not the same as finding someone with specific experience](pub/hiring-talents/)
 
 \blogyear{2021}
 
