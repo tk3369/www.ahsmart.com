@@ -3,6 +3,10 @@
 
 \splash{infinity}{/assets/pages/infinity_unsplash.jpg}{Photo by freddie marriage on Unsplash}
 
+\blogyear{2022}
+
+\blogmonth{Apr} [Hiring talents](pub/hiring-talents/)
+
 \blogyear{2021}
 
 \blogmonth{May} [Data Wrangling with DataFrames.jl Cheat Sheet](pub/data-wrangling-with-data-frames-jl-cheat-sheet/)
