@@ -9,7 +9,7 @@ julia --project=. -e 'using Franklin; serve(; clear = true, single = true, clean
 # make a backup
 echo "Backing up web site"
 cd /var/www/html
-tar cfz archive/backup-`date +%Y%m%d-%H%M%S`.tgz *.xml *.html *.jl assets css pub layout libs tag
+tar cfz __archive/backup-`date +%Y%m%d-%H%M%S`.tgz *.xml *.html *.jl assets css pub layout libs tag
 
 # remove same files
 echo "Removing existing files"
