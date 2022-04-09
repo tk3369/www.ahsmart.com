@@ -9,7 +9,7 @@
 \blogtitle{Hiring talents is not the same as finding someone with specific experience}
 \blogdate{Apr 9, 2022}
 
-![Pic](/assets/pages/hiring_talents/splash.jpg)
+![Pic](/assets/pages/hiring-talents/splash.jpg)
 \textcss{blog-image-credit}{Photo by Jason Hogan, retrieved from Unsplash}
 
 Often enough, I hear hiring managers complaining that they cannot find the right person for their jobs.
