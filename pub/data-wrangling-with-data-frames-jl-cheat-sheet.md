@@ -26,7 +26,7 @@ You can use the following code to download the data:
 using DataFrames
 using CSV
 
-function download_titantic()
+function download_titanic()
     url = "https://www.openml.org/data/get_csv/16826755/phpMYEkMl"
     return DataFrame(CSV.File(download(url); missingstring = "?"))
 end

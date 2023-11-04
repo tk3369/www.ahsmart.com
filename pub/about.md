@@ -24,14 +24,6 @@ This book fulfills several demands from Julia developers:
 A desire to improve system performance.
 A desire to design software that is easy to maintain.*
 
-## My Mobile Apps
-
-I developed several iOS apps during 2012-2015. They are no longer maintained and are off-the-shelf already. 
-
-- [My Graphics](https://apps.apple.com/us/app/my-graphics/id534963449) is a drawing program that generate images based upon spiral and fractal patterns. It is written in Objective-C and Scheme ([SCM/SLIB](http://people.csail.mit.edu/jaffer/SCM.html)).
-
-- [HealthyWalk](https://apps.apple.com/us/app/healthywalk/id782944633) is a pedometer app with a simple and clean user interface.  It is written in Objective-C.
-
 ## Contact Information
 
 ```
